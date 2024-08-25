@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConvMVVM.Core" Version="1.0.29" />
+    <PackageReference Include="ConvMVVM.WPF" Version="1.0.29" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="23.2.5" />
+    <PackageReference Include="DevExpress.Wpf.Themes.Win11Dark" Version="23.2.5" />
+    <PackageReference Include="RestSharp" Version="111.4.1" />
+  </ItemGroup>
+
+</Project>
